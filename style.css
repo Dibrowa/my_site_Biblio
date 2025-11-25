@@ -1,0 +1,137 @@
+/* ————————— Загальні стилі ————————— */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+     /*padding-top: 70px; щоб контент не залазив під меню */
+}
+
+/* ————————— Шапка ————————— */
+
+.shapka {
+    background-color: #2f6fae;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo-img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.zagolovok {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* ————————— Меню ————————— */
+
+/*.menyu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e6e6e6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 2px solid #333;
+    z-index: 1000;
+}
+*/
+.menyu {
+    background-color: #f60909;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 2px solid #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menyu-knopka {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border: 1px solid #333;
+    background-color: #f0f0a0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.menyu-knopka:hover {
+    background-color: #d4c96f;
+}
+
+.aktyvna {
+    background-color: #c2ff00;
+    border-color: #000;
+}
+
+/* ————————— Список книг ————————— */
+
+.spysok-knyg {
+    background-color: #f0f0a0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.knyga-kartka {
+    background-color: #94d9e5;
+    border: 2px solid #000;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+}
+
+.knyga-img {
+    width: 120px;
+}
+
+.knyga-nazva {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.knyga-info,
+.knyga-politsya {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.knyga-knopka {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* ————————— Футер ————————— */
+
+.futer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
